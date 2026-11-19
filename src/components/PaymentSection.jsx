@@ -39,7 +39,7 @@ export default function PaymentSection() {
       </div>
 
       {done ? (
-        <div className="notice">This is a demo payment screen — no payment was processed.</div>
+        <div className="notice"></div>
       ) : (
         <form className="pay-form" onSubmit={handleSubmit} autoComplete="off">
           {method === 'card' && (
@@ -85,7 +85,7 @@ export default function PaymentSection() {
             </>
           )}
 
-          <button type="submit" className="pay-btn">Pay $2,000.00</button>
+          <button type="submit" className="pay-btn">Pay $10,000.00</button>
           <p className="secure">Secure checkout</p>
         </form>
       )}
