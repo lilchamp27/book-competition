@@ -37,14 +37,14 @@ export default function Participant() {
       ) : (
         <>
           <div className="status-card status-red">
-            <div className="notice-head"><span>Immigration Status Notice</span><span>{ref}</span></div>
+            <div className="notice-head"><span>Travel Permit Status Notice</span><span>{ref}</span></div>
             <div className="notice-body">
               <div className="status-icon">✕</div>
               <h2>{person.name}</h2>
               <span className="badge badge-red">Travel Restricted</span>
               <p className="status-message">
                 You are restricted from travelling. You have an outstanding balance of{' '}
-                <strong>$2,000 USD</strong> to pay.
+                <strong>$10,000 USD</strong> to pay.
               </p>
             </div>
           </div>

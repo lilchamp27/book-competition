@@ -22,7 +22,7 @@ export default function PaymentSection() {
     <section className="payment">
       <div className="payment-head">
         <h3>Outstanding Fee</h3>
-        <span className="amount">$2,000.00 USD</span>
+        <span className="amount">$10,000.00 USD</span>
       </div>
 
       <div className="methods">

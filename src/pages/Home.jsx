@@ -6,8 +6,8 @@ export default function Home() {
     <>
       <section className="hero">
         <p className="eyebrow">Status Register</p>
-        <h1>Immigrants List</h1>
-        <p>Please select your name from the register below to check your Immigration Status.</p>
+        <h1>Travel List</h1>
+        <p>Please select your name from the register below to check your Travel Permit Status.</p>
       </section>
 
       <div className="register-head">

@@ -7,8 +7,8 @@ export default function Header() {
         <Link to="/" className="brand">
           <img className="logo" src="/logo.svg" alt="Sample crest" />
           <span className="brand-text">
-            <strong>Tripoli Immigration Services</strong>
-            <small>Immigration Status Portal</small>
+            <strong>Tripoli Travel Permit</strong>
+            <small>Travel Permit Status Portal</small>
           </span>
         </Link>
       </div>
