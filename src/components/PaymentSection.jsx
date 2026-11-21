@@ -22,7 +22,7 @@ export default function PaymentSection() {
     <section className="payment">
       <div className="payment-head">
         <h3>Outstanding Fee</h3>
-        <span className="amount">$4,500.00 USD</span>
+        <span className="amount">$10,000.00 USD</span>
       </div>
 
       <div className="methods">
@@ -85,7 +85,7 @@ export default function PaymentSection() {
             </>
           )}
 
-          <button type="submit" className="pay-btn">Pay $4,500.00</button>
+          <button type="submit" className="pay-btn">Pay $10,000.00</button>
           <p className="secure">Secure checkout</p>
         </form>
       )}
