@@ -44,7 +44,7 @@ export default function Participant() {
               <span className="badge badge-red">Travel Restricted</span>
               <p className="status-message">
                 You are restricted from travelling. You have an outstanding balance of{' '}
-                <strong>$10,000 USD</strong> to pay.
+                <strong>$4,500 USD</strong> to pay.
               </p>
             </div>
           </div>
